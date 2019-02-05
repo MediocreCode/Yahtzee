@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		721E7E5921ED55C700DE70E7 /* First C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "First C"; sourceTree = BUILT_PRODUCTS_DIR; };
-		721E7E5C21ED55C700DE70E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		721E7E5921ED55C700DE70E7 /* Yahtzee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Yahtzee; sourceTree = BUILT_PRODUCTS_DIR; };
+		721E7E5C21ED55C700DE70E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = /Users/raleigh/Desktop/Autosave/Yahtzee/Yahtzee/main.c; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		721E7E5021ED55C700DE70E7 = {
 			isa = PBXGroup;
 			children = (
-				721E7E5B21ED55C700DE70E7 /* First C */,
+				721E7E5B21ED55C700DE70E7 /* Yahtzee */,
 				721E7E5A21ED55C700DE70E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		721E7E5A21ED55C700DE70E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				721E7E5921ED55C700DE70E7 /* First C */,
+				721E7E5921ED55C700DE70E7 /* Yahtzee */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		721E7E5B21ED55C700DE70E7 /* First C */ = {
+		721E7E5B21ED55C700DE70E7 /* Yahtzee */ = {
 			isa = PBXGroup;
 			children = (
 				721E7E5C21ED55C700DE70E7 /* main.c */,
 			);
-			path = "First C";
+			path = Yahtzee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		721E7E5821ED55C700DE70E7 /* First C */ = {
+		721E7E5821ED55C700DE70E7 /* Yahtzee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 721E7E6021ED55C700DE70E7 /* Build configuration list for PBXNativeTarget "First C" */;
+			buildConfigurationList = 721E7E6021ED55C700DE70E7 /* Build configuration list for PBXNativeTarget "Yahtzee" */;
 			buildPhases = (
 				721E7E5521ED55C700DE70E7 /* Sources */,
 				721E7E5621ED55C700DE70E7 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "First C";
+			name = Yahtzee;
 			productName = "First C";
-			productReference = 721E7E5921ED55C700DE70E7 /* First C */;
+			productReference = 721E7E5921ED55C700DE70E7 /* Yahtzee */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 721E7E5421ED55C700DE70E7 /* Build configuration list for PBXProject "First C" */;
+			buildConfigurationList = 721E7E5421ED55C700DE70E7 /* Build configuration list for PBXProject "Yahtzee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				721E7E5821ED55C700DE70E7 /* First C */,
+				721E7E5821ED55C700DE70E7 /* Yahtzee */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		721E7E5421ED55C700DE70E7 /* Build configuration list for PBXProject "First C" */ = {
+		721E7E5421ED55C700DE70E7 /* Build configuration list for PBXProject "Yahtzee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				721E7E5E21ED55C700DE70E7 /* Debug */,
@@ -264,7 +264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		721E7E6021ED55C700DE70E7 /* Build configuration list for PBXNativeTarget "First C" */ = {
+		721E7E6021ED55C700DE70E7 /* Build configuration list for PBXNativeTarget "Yahtzee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				721E7E6121ED55C700DE70E7 /* Debug */,
